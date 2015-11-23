@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Xh5-BU-mUg" customClass="QNToolbar">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+            <items>
+                <barButtonItem title="上一个" id="ZEK-S3-9Hd"/>
+                <barButtonItem title="下一个" id="vgc-FT-rfw"/>
+                <barButtonItem style="plain" systemItem="flexibleSpace" id="48H-2W-jEO"/>
+                <barButtonItem title="Done" id="08Y-E5-VzA">
+                    <connections>
+                        <action selector="DoneClick:" destination="Xh5-BU-mUg" id="Mqv-Li-k3T"/>
+                    </connections>
+                </barButtonItem>
+            </items>
+            <point key="canvasLocation" x="267" y="280"/>
+        </toolbar>
+    </objects>
+</document>
